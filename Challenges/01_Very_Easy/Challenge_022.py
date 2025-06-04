@@ -4,7 +4,7 @@
 # 3- QUANTAS LETRAS AO TOTAL (SEM CONSIDERAR ESPAÇOS)
 # 4- QUANTAS LETRAS TEM O PRIMEIRO NOME
 
-fullName = input(str("Write your full name: "))
+fullName = str(input("Write your full name: ")).strip()
 firstNameLetters = fullName.split()
 fullNameLetters = fullName.replace(" ","")
 
