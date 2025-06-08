@@ -5,4 +5,4 @@
 
 wordInput = str(input("Enter a random phrase: ").upper())
 length = len(wordInput)
-verify = print(f'A letra "A" aparece {wordInput.count("A")} vezes, pela primeira vez na posição {wordInput.find("A")+1}, e pela última vez na posição {wordInput.rfind("A")+1}')
+verify = print(f'The letter "A" appears {wordInput.count("A")} times, the first time in position {wordInput.find("A")+1}, and the last time in position {wordInput.rfind("A")+1}')
