@@ -5,4 +5,3 @@ if carVelocity > 80:
     print(f'You have been fined by R${(carVelocity - 80) * 7:.2f} ')
 else:
     print("Go ahead, you aren't fined")
-
