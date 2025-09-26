@@ -2,5 +2,5 @@
 
 travelDistance = float(input('Enter the travel distance in Kilometers: '))
 if travelDistance < 201:
-    print(f'The price of your ticket is R${travelDistance * 0.5} .')
-else: print(f'The price of your ticket is R${travelDistance * 0.45} .')
+    print(f'The price of your ticket is R${travelDistance * 0.5}.')
+else: print(f'The price of your ticket is R${travelDistance * 0.45}.')
